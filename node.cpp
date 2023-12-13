@@ -9,7 +9,8 @@ Node::Node(Student* newstudent) {
 
 //destroys student
 Node::~Node() {
-    delete &student;
+    delete student;
+    cout << "Destructor Called" << endl;
     next = NULL;
 }
 

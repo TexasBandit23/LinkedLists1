@@ -53,6 +53,11 @@ int main() {
   cout << endl;
     
   head->getNext()->getStudent()->getInfo();
-    
+
+  cout << endl;
+  
+  //destructor
+  delete head; 
+  
   return 0;
 }
